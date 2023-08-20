@@ -1,0 +1,68 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","wake up","jarvis"
+            ],
+            "responses":["Hello Sir","How Are You Sir.","Always For You Sir",
+                "Hello","Here's Your Assistant.", "Sure, what's on your mind? How can I assist you?"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","goodbye","see you later","sleep","exit"
+            ],
+            "responses":["Bye.","I am Going.","Bye Sir.","Good Bye",
+                "It'll be Nice To Meet You Again.","See You Later"
+            ]
+        },
+        {
+            "tag":"indentity",
+            "patterns":["your name","what is your name","who are you","give an intro about yourself"
+            ],
+            "responses":["I am Jet. Your personal virtual assistant",
+                        "I am here to help you, by the way I am Jet",
+                        "I am Jet, an artificially intelligent virtual assistant inspired by jarvis, another AI assistant made by Tony Stark"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["time now","what is the time","what time is it ?"
+            ],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["today","what is the day today ?","which day is it today ?","tell me the date"
+            ],
+            "responses":["date"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","tell me about","what is","wikipedia"
+            ],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["search","google", "google search", "search on google", "on google"
+            ],
+            "responses":["google"]
+        },
+        {
+            "tag":"appreciation",
+            "patterns":["good", "very good", "thanks", "appreciated", "nice", "awesome", "thank you"],
+            "responses":["you're welcome sir", "at your service sir", "my pleasure sir", "it's really nice of you sir"]
+        },
+        {
+            "tag":"switch",
+            "patterns":["switch windows", "switch"],
+            "responses":["switch"]
+        },
+        {
+            "tag":"download",
+            "patterns":["show downloads", "what did you download ?", "downloads"],
+            "responses":["download"]
+        }        
+    ]
+}
