@@ -1,0 +1,9 @@
+nltk==3.8
+numpy==1.23.5
+PyAudio==0.2.13
+PyAutoGUI==0.9.53
+pyttsx3==2.90
+pywhatkit==5.4
+SpeechRecognition==3.9.0
+torch==1.13.1
+wikipedia==1.4.0

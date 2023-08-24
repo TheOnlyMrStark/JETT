@@ -2,7 +2,7 @@
 import pyttsx3
 
 #------------Variables------------#
-assistant_name = "J E T T"
+
 
 #---------------Functions---------------#
 def Say(Text):

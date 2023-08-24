@@ -37,7 +37,7 @@ def inputExecution(tag, query):
         import pywhatkit as pop
         pop.search(query)
         
-    elif "download" in tag:
+    elif "downloads" in tag:
         Say("Ok Sir")
         os.startfile("C:\\Users\\jetma\\Downloads")
         

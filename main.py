@@ -35,7 +35,7 @@ name = "Jett"
 
 def Main():
     
-    #Tester() #Remove if creates issues
+    #Tester() #Removed as creating issues
     #sentence = Listen()
     sentence = input("You : ")
     result = str(sentence)

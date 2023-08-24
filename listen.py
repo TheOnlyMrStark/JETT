@@ -2,7 +2,7 @@
 import speech_recognition as sr
 
 #------------Variables------------#
-assistant_name = "J E T T"
+
 
 #---------------Functions---------------#
 def Listen():
