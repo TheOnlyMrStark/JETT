@@ -4,6 +4,7 @@ from speak import Say
 import os
 import pyautogui as pg
 
+
 #------------Non-input Functions--------------#
 def time():
     time = datetime.datetime.now().strftime("%H:%M")
@@ -13,6 +14,8 @@ def date():
     date = datetime.date.today()
     Say(date)
     
+
+
 def nonInputExecution(query):
     
     query = str(query)
@@ -21,6 +24,10 @@ def nonInputExecution(query):
         time()
     elif "date" in query:
         date()
+    elif "music" in query:
+        os.startfile("C:\\Users\\jetma\\Music\\Playlists\\Hi-Res.m3u8")
+
+
         
 #-------------Input Functions-----------------#
 def inputExecution(tag, query):

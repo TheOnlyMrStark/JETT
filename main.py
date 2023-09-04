@@ -6,7 +6,6 @@ from core import NeuralNet
 from neuralnet import bag_of_words, tokenize
 from tasks import nonInputExecution
 from tasks import inputExecution
-from clap import Tester
 from listen import Listen
 from speak import Say
 
@@ -79,6 +78,9 @@ def Main():
                     
                 elif "download" in response:
                     inputExecution(response, result)  
+                    
+                elif "music" in response:
+                    nonInputExecution(response)
                     
                 else:               
                     Say(response)

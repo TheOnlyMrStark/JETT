@@ -71,6 +71,15 @@
             "tag":"download",
             "patterns":["show downloads","what did you download ?","downloads","show me downloads"],
             "responses":["download"]
-        }        
+        },
+        {
+            "tag":"music",
+            "patterns":["Music",
+            "Play some tunes",
+            "Play some music",
+            "Song time",
+            "Soundtrack"],
+            "responses":["music"]
+        }
     ]
 }
